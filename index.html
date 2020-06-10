@@ -2,42 +2,50 @@
 
 
 <html>
-    <style>
-        .googleimg {
-            width: 250px;
-        }
-        .googleapp {
-            width: 1.75em;
-        
-        }
-        .googleapp:hover{
-            color:black;
-        }
-    </style>
     <head>
         <link href="styles/styles.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
         <meta charset = "UTF-8">
     </head>
-<body>
+
+<nav class="container">
+    <ul class="aboutstore">
+        <li id="about"><a href="https://github.com/victordeng0">About</a></li>
+        <li id="store"><a href="https://github.com/victordeng0">Store</a></li>
+    </ul>
+    <ul class="rightnav">
+        <li id="gmail"><a href="https://github.com/victordeng0">Gmail</a></li>
+        <li id="images"><a href="https://github.com/victordeng0">Images</a></li>
+        <li><a href="https://github.com/victordeng0"><img class = "googleapp" src="images/googleApps.png" alt="Google Apps Logo"></a></li>
+        <li><button class="signin">Sign in</button></li>
+    </ul>
+</nav>
+
+
 <img class = "googleimg" src="images/googleLogo.png" alt="Google Logo">
-<img class = "googleapp" src="images/googleApps.png" alt="Google Apps Logo">
-
-</body>
-
-
-
-<button class="googleSearch" >Google Search</button>
-<button class="lucky">I'm Feeling Lucky</button>
-<button class="about">About</button>
-<button class="store">Store</button>
-<button class="gmail">Gmail</button>
-<button class="images">Images</button>
-<button class="signin">Sign in</button>
- 
 <input class="searchbar" placeholder="">
 
+<div id="searchAndLucky">
+<button class="googleSearch" >Google Search</button>
+<button class="lucky">I'm Feeling Lucky</button>
+</div>
 
+<footer>
+
+    <nav class="bottom">
+        <ul class="ads">
+            <li><a href="">Advertising</a></li>
+            <li><a href="">Business</a></li>
+            <li><a href="">How Search works</a></li>
+        </ul>
+        <ul class="privacy">
+            <li><a href="">Privacy</a></li>
+            <li><a href="">Terms</a></li>
+            <li><a href="">Settings</a></li>
+        
+        </ul>
+    </nav>
+</footer>
 
 </body>
 
